@@ -1,0 +1,908 @@
+*{
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+.main{
+    height: 50px;
+    width:100%;
+    background-color: black;
+    
+    margin-top: 1%;
+}
+
+#logo{
+    position: absolute;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.drop{
+
+    height: 50px;
+    position: absolute;
+    width: 5%;
+    background-color: black;
+    margin-left: 10%;
+}
+
+
+#i{
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30px;
+    color: white;
+    font-size: 2em;
+  
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+   
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content {
+background-color: black;
+}
+
+.main h2{
+     position: absolute;
+     display: inline;
+     color: aliceblue;
+     margin-left: 12.5%;
+     font-size:20px;
+     margin-top: 15px;
+     
+}
+
+
+.drop:hover .dropdown-content {
+    display:block;
+    margin-top: 20px;
+    transform: scale(1.5);
+    transition-property: all;
+    transition: display 0.3s ease-in-out 0.2s;
+    
+
+}
+.drop:hover .dropdown-content a {
+   display: block;
+   text-decoration: none;
+   color: white;
+   font-size: medium;
+    
+}
+
+
+
+.search-container{
+    display: inline-block;
+    position: absolute;
+    margin-left: 20%;
+
+}
+
+.search-box{
+    margin-top: 13px;
+    background-color: white;
+    height:24px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.search-button{
+    display: inline;
+    position: absolute;
+    margin-left: 102%;
+    margin-top: -25px;
+    background-color: skyblue;
+
+}
+
+@media only screen and (max-width: 767px) {
+    *{
+      margin: 0%;
+    }
+    
+   
+
+    
+    #logo{
+      height:20px;
+      width: 30px;
+    }
+
+    #i{
+        margin-top: 10px;
+        margin-left: -30%;
+        height:1px;
+        width: 20px; 
+        font-size: 15px;  
+    }
+
+    .main h2{
+        font-size: 10px;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        min-width: 80px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .drop:hover .dropdown-content {
+        display:block;
+        margin-top: 15px;
+        transform: scale(1);
+        margin-left: -40%;
+        transition-property: all;
+        transition: display 0.3s ease-in-out 0.2s;
+        
+    
+    }
+    .search-box{
+        margin-top: 8px;
+        background-color: white;
+        height:15px;
+        width:100px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .search-box::placeholder{
+        font-size: 8px;
+    }
+
+    .search-button{
+        display: inline;
+        position: absolute;
+        height: 20px;
+        margin-left: 5%;
+        margin-top: 8px;
+        background-color: skyblue;
+        border-radius: 10px;
+        }
+        
+  }
+
+
+.location{
+    display: inline;
+   margin-left:60%;
+   position: absolute;
+   width:100px;
+   height:50px;
+   
+}
+
+.location i{
+        height: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 30px;
+        color: white;
+        font-size: 2em;   
+}
+
+.location h2 {
+   
+        position: absolute;
+        display: inline;
+        color: aliceblue;
+        font-size:15px;
+        margin-top:10px;
+        
+   
+}
+
+.user{
+    display: inline;
+   margin-left:70%;
+   position: absolute;
+   width:100px;
+   height:50px;
+}
+
+.user i{
+    position: absolute;
+    display: inline;
+    color: aliceblue;
+    font-size:25px;
+    margin-top:10px;
+}
+
+
+.cart{
+    display: inline;
+    margin-left:83%;
+    position: absolute;
+    width:100px;
+    height:50px;
+}
+
+.user h2{
+    position: absolute;
+    display: inline;
+    color: aliceblue;
+    font-size:15px;
+    margin-top:15px;
+    margin-left:30px;
+}
+
+.cart i{
+    position: absolute;
+    display: inline;
+    color: aliceblue;
+    font-size:25px;
+    margin-top:10px;
+}
+
+.cart h2{
+    position: absolute;
+    display: inline;
+    color: aliceblue;
+    font-size:15px;
+    margin-top:15px;
+    margin-left:35px;
+}
+
+
+
+
+
+.slid img{
+     width:90%;
+}
+
+.dot_icon{
+    
+    font-size: 800px;
+    color: white;
+
+}
+
+.offer{
+    height: 15vh;
+    width:100%;
+
+    margin-top: 1%;
+}
+
+.offer div{
+    display: inline-block;
+}
+
+.offer1{
+    height:70%;
+    width:20%;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-image: url('LP_3split_Bankstrip_TN_21nov2023_iv8boh.webp'); 
+    background-size: cover;
+    box-shadow: 0px 0px 10px #cacbcc;
+    border-radius: 8%;
+}
+
+.offer2{
+    height:70%;
+    width:20%;
+    margin-top: 1%;
+    margin-left: 10%;
+    background-image: url('LP_3split_Bankstrip_GST_21nov2023_kk2jdt.webp'); 
+    background-size: cover;
+    box-shadow: 0px 0px 10px #cacbcc;
+    border-radius: 8%;
+}
+
+.offer3{
+    height:70%;
+    width:20%;
+    margin-top: 1%;
+    margin-left: 10%;
+    background-image: url('LP_3split_Bankstrip_HSBC_24Nov2023_zcs5zx.webp'); 
+    background-size: cover;
+    box-shadow: 0px 0px 10px #cacbcc;
+    border-radius: 8%;
+}
+
+
+.product{
+
+   
+    height: 20vh;
+    width: 98%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+
+
+}
+
+.r{
+    
+    position: absolute;
+    margin-top: 5%;
+    height: 40px;
+    width: 30px;
+    color: white;
+    font-size: 2em;
+
+}
+
+.r2{
+    position: absolute;
+    margin-top: 15%;
+    height: 40px;
+    width: 30px;
+    color: white;
+    font-size: 2em;
+}
+
+.l{
+    position: absolute;
+    margin-top: 5%;
+    margin-left:5%;
+    height: 40px;
+    width: 30px;
+    color: white;
+    font-size: 2em;
+}
+
+.l2{
+    position: absolute;
+    margin-top: 15%;
+    margin-left:3%;
+    height: 40px;
+    width: 30px;
+    color: white;
+    font-size: 2em; 
+}
+.circle {
+    display: inline-block;
+    width: 150px; 
+    height: 150px;
+    color: #cacbcc; 
+    
+    margin-left: 6%;
+    margin-top: 1%;
+  }
+
+  .c1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1690220193/Croma%20Assets/CMS/LP%20Page%20Banners/2023/UNBOXED/UPDATE/2407/category-icon_unboxed_e123f4.png?tr=w-720'); 
+    background-size: cover;
+  }
+
+  .c2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1676968095/Croma%20Assets/CMS/LP%20Page%20Banners/2023/01_HP_BUGS_LP_BUGS/FEB/21-02-2023/Category%20Navigation%20-%20Audio%20Split/CategoryNavigation_AudioSplit_Mobile_21Feb2023_y6hsfe.png?tr=w-720'); 
+    background-size: cover;
+  }
+
+  .c3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1676968095/Croma%20Assets/CMS/LP%20Page%20Banners/2023/01_HP_BUGS_LP_BUGS/FEB/21-02-2023/Category%20Navigation%20-%20Audio%20Split/CategoryNavigation_AudioSplit_TV_21Feb2023_repyuk.png?tr=w-720'); 
+    background-size: cover;
+  }
+
+  .c4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700225992/Croma%20Assets/CMS/LP%20Page%20Banners/2023/HP%20Category%20Navigation/CategoryNavigation_AudioSplit_Laptops_17Nov2023_wcqnvs.png?tr=w-720'); 
+    background-size: cover;
+  }
+
+  .c5{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1676968094/Croma%20Assets/CMS/LP%20Page%20Banners/2023/01_HP_BUGS_LP_BUGS/FEB/21-02-2023/Category%20Navigation%20-%20Audio%20Split/CategoryNavigation_AudioSplit_H_E_21Feb2023_cw375r.png?tr=w-720'); 
+    background-size: cover;
+
+  }
+
+ .deals{
+    height: 70vh;
+    width: 98%;
+    margin-top: 5%;
+    margin-left: 1%;
+ }
+
+ .deals h1{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+
+ .deals div{
+    display: inline-block;
+ }
+
+ .box{
+      
+       height: 400px;
+       width: 250px;
+       margin-left: 5%;
+       margin-top: 1%;
+ }
+
+
+ .item{
+    position: absolute;
+   margin-top: 1%;
+    height: 30%;
+    width:14%;
+    box-shadow: 0px 0px 10px silver;
+ }
+ 
+ .p1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1686298123/Croma%20Assets/Communication/Mobiles/Images/273454_on82gs.png?tr=w-480');
+    background-size: cover;
+ }
+
+ .p2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697624774/Croma%20Assets/Entertainment/Television/Images/251190_0_esdvdk.png?tr=w-480');
+    background-size: cover;
+}
+
+.p3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1664418078/Croma%20Assets/Computers%20Peripherals/Laptop/Images/257161_0_hvgepf.png?tr=w-480');
+   background-size: cover;
+}
+
+.p4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697019457/Croma%20Assets/Large%20Appliances/Refrigerator/Images/274663_0_gowpgi.png?tr=w-480');
+    background-size: cover;
+}
+
+.price{
+    position: absolute;
+    
+    height: 19%;
+    width: 14%;
+    margin-top: 16.5%;
+}
+
+.deals h2{
+    color: white;
+    font-size: 20px;
+}
+
+.highlight{
+   
+    height: 40vh;
+    width: 98%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+.highlight h1{
+    color: white;
+    margin-left: 5%;
+}
+
+.highlight div{
+    display: inline-block;
+}
+
+.hb{
+   
+    height:1%;
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+}
+
+.h1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1699426704/Croma%20Assets/CMS/Bank%20banners/Nov%202023/HP_Highlights_cromaacquisition_8nov2023_liehjw.png?tr=w-720');
+    background-size: cover;
+}
+
+.h2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1692683867/Croma%20Assets/CMS/LP%20Page%20Banners/2023/KBC/HP_Highlights_KBC_21Aug2023_oktfmw.jpg?tr=w-720');
+    background-size: cover;
+}
+
+.h3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700566630/Croma%20Assets/CMS/LP%20Page%20Banners/2023/Sunburn/21st%20Nov/HP_Highlight_Sunburn_DVLM_21Nov23_ojgolc.png?tr=w-720');
+    background-size: cover;
+}
+
+.h4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700052630/Croma%20Assets/CMS/LP%20Page%20Banners/2023/CROMA%20STORE/November/15th%20MNov%202023/HP%20Highlights/HP_Highlights_CromaOL_14Nov2023_srd1js.jpg?tr=w-720');
+    background-size: cover;
+}
+
+.h5{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700112671/Croma%20Assets/CMS/Bugs/01012023/040423/HP_Highlights_GiftingStore_15Nov2023_rxfnna.jpg?tr=w-720');
+    background-size: cover;
+}
+
+.h6{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1691126309/Croma%20Assets/CMS/LP%20Page%20Banners/2023/Deals%20Corner/HP_Highlight_DOTW_2Aug2023_2_mdna8l.jpg?tr=w-720');
+    background-size: cover;
+}
+
+.apple{
+    
+    height: 50vh;
+    width: 98%;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+
+.apple h1{
+    color: white;
+    margin-left: 5%;
+}
+
+
+.bl{
+    display: inline-block;
+   
+    position: absolute;
+    height: 30%;
+    width:30%;
+    margin-left: 6%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700803185/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/24-11-2023/HP_2Split_AppleAtCroma_iphone15_24oct2023_pl6ncf.png?tr=w-1024');
+    background-size: cover;
+}
+.bl2{
+    display: inline-block;
+   
+    position: absolute;
+    height: 30%;
+    width:30%;
+    margin-left: 50%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1698997916/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Apple%20at%20croma/HP_2Split_AppleAtCroma_iphone15plus_3Nov2023_tqp23o.png?tr=w-1024');
+    background-size: cover;
+}
+
+.sb{
+    display: inline-block;
+  
+    height: 35%;
+    width:13%;
+    margin-top: 20%;
+    margin-left: 7%;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+}
+
+.sb1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1698997917/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Apple%20at%20croma/HP_4Split_Appleatcroma_iphone15Pro_3Nov2023_qx5nyv.png?tr=w-720');
+    background-size: cover;
+}
+
+.sb2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700824203/Croma%20Assets/CMS/Homepage%20Banners/Apple%20at%20Croma/HP_4Split_Appleatcroma_Watchse_24Nov2023_gs0ucz.png?tr=w-720');
+    background-size: cover;
+}
+
+.sb3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700887999/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/25-11-2023/HP_4Split_Appleatcroma_iPads_25Nov2023_vekumz.png?tr=w-720');
+    background-size: cover;
+}
+
+.sb4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700543726/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/21-11-2023/HP_4Split_Appleatcroma_airpods_20Nov2023_dovfku.png?tr=w-720');
+    background-size: cover;
+}
+
+
+.new{
+   
+    height: 90vh;
+    width: 98%;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+.new h1{
+    color: white;
+    margin-left: 5%;
+}
+
+.lb{
+    margin-left: 8%;
+  
+    height: 40%;
+    width:35%;
+    display: inline-block;
+    margin-top: 1.5%;
+    border-radius: 10px;
+
+}
+
+.lb1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1699448111/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/08-11-2023/6.23%20pm/HP_BigTile_NewAtCroma_Mackbook_8Nov2023_mezqxb.png?tr=w-1024');
+    background-size: cover;
+}
+
+.lb2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700457303/Croma%20Assets/CMS/New%20at%20croma/HP_BigTile_NewAtCroma_ViVo_16Nov2023_oov6wp.png?tr=w-1024');
+    background-size: cover;
+}
+
+.cb{
+    position: relative;
+    display: inline-block;
+    height: 35%;
+    width: 13%;
+  
+    margin-top: 2.5%;
+    margin-left: 8%;
+    border-radius: 10px;
+
+}
+
+.cb1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700717284/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/23-11-2023/HP_4Split_NewAtCroma_Oneplus_23Nov2023_xlqwdw.png?tr=w-720');
+    background-size: cover;
+}
+
+.cb2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975391/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_NewAtCroma_HPlaptop_26Nov2023_umfij7.png?tr=w-720');
+    background-size: cover;
+}
+
+.cb3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975391/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_NewAtCroma_WM_26Nov2023_jljaeg.png?tr=w-720');
+    background-size: cover;
+}
+
+.cb4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975392/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_NewAtCroma_GoPro_26nov2023_qjuwr5.png?tr=w-720');
+    background-size: cover;
+}
+
+.fest{
+    height: 110vh;
+    width: 98%;
+    margin-top: 1%;
+    margin-left: 1%;
+
+}
+
+.fest h1{
+    color: white;
+    margin-left: 5%;
+}
+
+.bo{
+    display: inline-block;
+    box-shadow: 0px 0px 10px silver;
+    width: 15%;
+    height: 25%;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+
+.bo1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1699853353/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/13-11-2023/HP_4Split_festivedeals_Oneplus_13nov2023_gnmbax.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975390/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_festivedeals_TWS_26nov2023_omhrbt.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700803186/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/24-11-2023/HP_4Split_festivedeals_WM_24nov2023_zwvd63.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700888000/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/25-11-2023/HP_4Split_festivedeals_Ref_25nov2023_npcdp9.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo5{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975390/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_festivedeals_M_O_26nov2023_xcw4b5.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo6{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975390/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_festivedeals_M_O_26nov2023_xcw4b5.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo7{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975391/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_festivedeals_Laptops_26nov2023_zhwalt.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo8{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700975389/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/26-11-2023/HP_4Split_festivedeals_ACs_26nov2023_lywvz8.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo9{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1699853353/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/13-11-2023/HP_4Split_festivedeals_TV_13nov2023_pk5iap.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo10{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700717283/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/23-11-2023/HP_4Split_festivedeals_Xiomi_23nov2023_mppqrk.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo11{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697865984/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Oct%202023/21-10-2023/HP_4Split_festivedeals_mobilecases_21Oct2023_zbhnd8.png?tr=w-1024');
+    background-size: cover;
+}
+
+.bo12{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1700888000/Croma%20Assets/CMS/Homepage%20Banners/01_Homepage%20Bugs%20Daily/Nov%202023/25-11-2023/HP_4Split_festivedeals_Canon_25nov2023_wn7fro.png?tr=w-1024');
+    background-size: cover;
+}
+
+.tata{
+    
+    height: 50vh;
+    width:100%;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    background-color:#0ff5cb;
+    
+}
+
+.tata h1{
+    color: black;
+    margin-left: 5%;
+    background-color: #0ff5cb;
+}
+
+.hb{
+    display: inline-block;
+   
+    height: 70%;
+    width: 25%;
+    margin-left: 6%;
+}
+
+.hb1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1645445290/Croma%20Assets/CMS/Homepage%20Banners/Other/1_gjnsjq.png?tr=w-720');
+    background-size: cover;
+    background-color: #0ff5cb;
+}
+
+
+.hb2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1645445290/Croma%20Assets/CMS/Homepage%20Banners/Other/2_zjvwff.png?tr=w-720');
+    background-color: #0ff5cb;
+    background-size: cover;
+}
+
+.hb3{
+    background-size: cover;
+    background-color: #0ff5cb;
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1645445290/Croma%20Assets/CMS/Homepage%20Banners/Other/3_cjoiif.png?tr=w-720');
+}
+
+.footer{
+
+    height: 60vh;
+    width: 98%;
+    border: 2px solid white;
+    margin-top: 2%;
+    box-shadow: 0px 0px 10px silver;
+    
+}
+
+.footer div{
+    display: inline-block;
+}
+
+.contect{
+    margin-top:1.5%;
+    border-right: 3px solid white;
+    width:25%;
+    height: 90%;
+   
+}
+
+.contect h2{
+    font-weight: bold;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.s{
+            width: 50%;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+}
+
+.b{
+    margin-top: 5%;
+    height: 5%;
+    margin-left: 8%;
+    display: inline-block;
+    background-color: white;
+    width:20%;
+
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+.b:hover{
+    background-color: green;
+}
+
+.i{
+    
+    display: inline-block;
+    height: 20px;
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 50px;
+    color: white;
+    font-size: 2em;
+}
+
+.i9{
+    display: none;
+}
+
+.icon{
+    display: block;
+}
+
+.info{
+    position: absolute;
+    display: block;
+    margin-top: 1%;
+   
+    height: 20%;
+    width:20%;
+    margin-left: -1%;
+
+}
+
+.info h3{
+    color: white;
+}
+
+.link{
+   
+   margin-top: 1.5%;
+    position: absolute;
+    border-right: 3px solid white;
+    height: 55%;
+    width:25%;
+    margin-left: 5%;
+}
+
+
+.link h2{
+    font-weight: bold;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link h3{
+    color: white;
+    margin-top: 1%;
+}
+
+.link a{
+  text-decoration: none;
+}
+
